@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx shadcn-vue@latest add:*)",
+      "Bash(npx --yes @nuxt/ui-templates@latest init --template shadcn-ui --componentName dropdown-menu)",
+      "Bash(npx:*)",
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
