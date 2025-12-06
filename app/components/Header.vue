@@ -10,7 +10,7 @@
             <div>
                 <h1 class="text-3xl font-bold">
                     <a href="#home" @click.prevent="scrollToSection('home')">
-                        <nuxt-img src="/logo.png" alt="Logo" width="90" height="90"
+                        <nuxt-img src="/Logo.png" alt="Logo" width="90" height="90"
                             class="inline-block mr-2 w-16 h-16 md:w-[90px] md:h-[90px]" />
                     </a>
                 </h1>

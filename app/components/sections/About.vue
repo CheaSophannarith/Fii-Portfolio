@@ -37,37 +37,37 @@
                     <p class="text-base font-light text-black dark:text-white">Education</p>
                 </div>
                 <div
-                    class="flex items-center w-full max-w-lg gap-2 p-2 border rounded-lg sm:gap-3 sm:p-3 border-primary-400">
-                    <nuxt-img src="MOEYS.png" width="50" height="50"
-                        class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12"></nuxt-img>
-                    <div class="flex flex-col gap-0.5">
+                    class="flex items-center w-full max-w-lg gap-3 p-3 border rounded-lg sm:gap-4 sm:p-4 border-primary-400">
+                    <nuxt-img src="/MOEYS.png" width="50" height="50"
+                        class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14"></nuxt-img>
+                    <div class="flex flex-col gap-1">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Hun Sen Serey Sophorn
                         </p>
                         <p class="text-xs font-light text-gray-500 sm:text-sm">Primary School (2009-2015)</p>
                     </div>
                 </div>
                 <div
-                    class="flex items-center w-full max-w-lg gap-2 p-2 border rounded-lg sm:gap-3 sm:p-3 border-primary-400">
-                    <nuxt-img src="MOEYS.png" width="50" height="50"
-                        class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12"></nuxt-img>
-                    <div class="flex flex-col gap-0.5">
+                    class="flex items-center w-full max-w-lg gap-3 p-3 border rounded-lg sm:gap-4 sm:p-4 border-primary-400">
+                    <nuxt-img src="/MOEYS.png" width="50" height="50"
+                        class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14"></nuxt-img>
+                    <div class="flex flex-col gap-1">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Hun Sen Pochentong</p>
                         <p class="text-xs font-light text-gray-500 sm:text-sm">Primary School (2015-2019)</p>
                     </div>
                 </div>
                 <div
-                    class="flex items-center w-full max-w-lg gap-2 p-2 border rounded-lg sm:gap-3 sm:p-3 border-primary-400">
-                    <nuxt-img src="MOEYS.png" width="50" height="50"
-                        class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12"></nuxt-img>
-                    <div class="flex flex-col gap-0.5">
+                    class="flex items-center w-full max-w-lg gap-3 p-3 border rounded-lg sm:gap-4 sm:p-4 border-primary-400">
+                    <nuxt-img src="/MOEYS.png" width="50" height="50"
+                        class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14"></nuxt-img>
+                    <div class="flex flex-col gap-1">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Hun Sen Borey 100K</p>
                         <p class="text-xs font-light text-gray-500 sm:text-sm">Primary School (2019-2021)</p>
                     </div>
                 </div>
                 <div
-                    class="flex items-center w-full max-w-lg gap-2 p-2 border rounded-lg sm:gap-3 sm:p-3 border-primary-400">
+                    class="flex items-center w-full max-w-lg gap-3 p-3 border rounded-lg sm:gap-4 sm:p-4 border-primary-400">
                     <nuxt-img src="rupp.png" width="50" height="50"
-                        class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12"></nuxt-img>
+                        class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14"></nuxt-img>
                     <div class="flex flex-col gap-0.5">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Royal University Of
                             Phnom
@@ -77,9 +77,9 @@
                     </div>
                 </div>
                 <div
-                    class="flex items-center w-full max-w-lg gap-2 p-2 border rounded-lg sm:gap-3 sm:p-3 border-primary-400">
+                    class="flex items-center w-full max-w-lg gap-3 p-3 border rounded-lg sm:gap-4 sm:p-4 border-primary-400">
                     <nuxt-img src="puc.png" width="50" height="50"
-                        class="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12"></nuxt-img>
+                        class="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14"></nuxt-img>
                     <div class="flex flex-col gap-0.5">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Pannasastra University
                         </p>
