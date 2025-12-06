@@ -1,7 +1,8 @@
 <template>
-    <section id="home">
+    <section id="home" class="relative">
+        <ParticleBackground />
         <div
-            class="flex flex-col gap-6 px-4 py-8 md:px-8 md:py-16 md:flex-row md:items-center md:justify-between md:gap-8 lg:gap-12">
+            class="relative flex flex-col gap-6 px-4 py-8 md:px-8 md:py-16 md:flex-row md:items-center md:justify-between md:gap-8 lg:gap-12">
             <div
                 class="flex flex-col items-center gap-6 mx-auto md:items-start md:mx-0 md:w-1/2 lg:max-w-3xl lg:ml-32">
                 <div>
