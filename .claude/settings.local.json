@@ -5,7 +5,9 @@
       "Bash(npx --yes @nuxt/ui-templates@latest init --template shadcn-ui --componentName dropdown-menu)",
       "Bash(npx:*)",
       "Bash(npm install:*)",
-      "Bash(npm uninstall:*)"
+      "Bash(npm uninstall:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout /t 3)"
     ],
     "deny": [],
     "ask": []
