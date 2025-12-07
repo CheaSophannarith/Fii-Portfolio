@@ -54,7 +54,7 @@
                     </div>
                     <div class="flex flex-col gap-1">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Hun Sen Pochentong</p>
-                        <p class="text-xs font-light text-gray-500 sm:text-sm">Primary School (2015-2019)</p>
+                        <p class="text-xs font-light text-gray-500 sm:text-sm">Secondary School (2015-2019)</p>
                     </div>
                 </div>
                 <div
@@ -64,7 +64,7 @@
                     </div>
                     <div class="flex flex-col gap-1">
                         <p class="text-sm font-light text-black sm:text-base dark:text-white">Hun Sen Borey 100K</p>
-                        <p class="text-xs font-light text-gray-500 sm:text-sm">Primary School (2019-2021)</p>
+                        <p class="text-xs font-light text-gray-500 sm:text-sm">High School (2019-2021)</p>
                     </div>
                 </div>
                 <div

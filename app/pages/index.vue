@@ -10,12 +10,7 @@
         <SectionsSkill />
 
         <!-- Projects Section -->
-        <section id="project" class="flex items-center justify-center min-h-screen">
-            <div class="container px-4 py-16 mx-auto">
-                <h1 class="text-4xl font-bold text-center">Projects</h1>
-                <!-- Add your projects content here -->
-            </div>
-        </section>
+        <SectionsProjects />
 
         <!-- Experience Section -->
         <section id="experience" class="flex items-center justify-center min-h-screen">

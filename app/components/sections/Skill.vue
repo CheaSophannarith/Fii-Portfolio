@@ -66,10 +66,10 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col items-center justify-center gap-2 mt-16 mb-8">
+        <div class="flex flex-col items-center justify-center gap-2 mt-16 mb-16">
             <h1 class="text-base font-light text-black uppercase dark:text-white">Additional Technologies</h1>
         </div>
-        <div class="container px-4 mx-auto max-w-7xl">
+        <div class="px-4 mx-auto mb-16 max-w-7xl">
             <div class="flex flex-col items-center gap-3">
                 <!-- Row 1: 4 items -->
                 <div class="flex justify-center gap-3">
