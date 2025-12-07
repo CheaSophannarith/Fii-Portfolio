@@ -6,29 +6,30 @@
         </div>
 
         <!-- Timeline -->
-        <div class="relative max-w-5xl py-16 mx-auto">
+        <div class="relative max-w-5xl py-8 md:py-16 mx-auto px-4">
             <!-- vertical line -->
-            <div class="absolute left-1/2 top-0 h-full w-[2px] bg-teal-500/50 -translate-x-1/2"></div>
+            <div class="absolute left-4 md:left-1/2 top-0 h-full w-[2px] bg-teal-500/50 md:-translate-x-1/2"></div>
 
-            <div v-for="(item, i) in journeys" :key="item.id" class="relative mb-20">
+            <div v-for="(item, i) in journeys" :key="item.id" class="relative mb-12 md:mb-20">
                 <!-- left or right -->
                 <div :class="[
-                    'w-1/2',
-                    i % 2 === 0 ? 'pr-8 mr-auto' : 'pl-8 ml-auto'
+                    'w-full md:w-1/2',
+                    'pl-12 md:pl-0',
+                    i % 2 === 0 ? 'md:pr-8 md:mr-auto' : 'md:pl-8 md:ml-auto'
                 ]">
-                    <div class="dark:bg-[#0E1726] bg-primary-50 p-6 rounded-2xl shadow-lg text-left">
-                        <div class="flex items-center justify-center gap-3">
-                            <component :is="item.icon" class="w-8 h-8 text-teal-400" />
-                            <div>
-                                <h3 class="text-xl font-bold">{{ item.title }}</h3>
-                                <p class="text-teal-400">{{ item.Organization }}</p>
+                    <div class="dark:bg-[#0E1726] bg-primary-50 p-4 md:p-6 rounded-2xl shadow-lg text-left">
+                        <div class="flex items-start md:items-center flex-col md:flex-row md:justify-center gap-3">
+                            <component :is="item.icon" class="w-6 h-6 md:w-8 md:h-8 text-teal-400 flex-shrink-0" />
+                            <div class="flex-1">
+                                <h3 class="text-lg md:text-xl font-bold">{{ item.title }}</h3>
+                                <p class="text-sm md:text-base text-teal-400">{{ item.Organization }}</p>
                             </div>
                         </div>
-                        <p class="mt-2 text-gray-500 dark:text-gray-400">{{ item.timestamp }}</p>
-                        <p class="mt-4 text-gray-400 dark:text-gray-300">{{ item.description }}</p>
+                        <p class="mt-2 text-sm md:text-base text-gray-500 dark:text-gray-400">{{ item.timestamp }}</p>
+                        <p class="mt-4 text-sm md:text-base text-gray-400 dark:text-gray-300">{{ item.description }}</p>
                         <ul v-if="item.list && item.list.length" class="mt-4 space-y-2">
                             <li v-for="(point, idx) in item.list" :key="idx"
-                                class="text-sm text-gray-400 dark:text-gray-300">
+                                class="text-xs md:text-sm text-gray-400 dark:text-gray-300">
                                 • {{ point }}
                             </li>
                         </ul>
@@ -36,7 +37,7 @@
                 </div>
 
                 <!-- dot -->
-                <div class="absolute w-4 h-4 -translate-x-1/2 bg-teal-400 rounded-full left-1/2 top-2"></div>
+                <div class="absolute w-4 h-4 left-[9px] md:left-1/2 md:-translate-x-1/2 bg-teal-400 rounded-full top-2"></div>
             </div>
         </div>
     </section>

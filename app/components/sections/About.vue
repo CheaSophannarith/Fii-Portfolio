@@ -19,7 +19,7 @@
                     </p>
                 </div>
                 <div>
-                    <p class="text-sm font-light text-center text-gray-500 sm:text-base md:text-left">Developer I'm
+                    <p class="text-sm font-light text-center text-gray-500 sm:text-base md:text-left">I'm
                         a
                         web developer
                         with 1
