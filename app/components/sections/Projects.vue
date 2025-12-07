@@ -31,7 +31,7 @@
                 class="overflow-hidden transition-transform duration-300 bg-white border rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700 hover:shadow-xl hover:-translate-y-1"
             >
                 <!-- Image with Hover Effect -->
-                <div class="relative overflow-hidden group h-60 bg-gray-200 dark:bg-gray-700">
+                <div class="relative overflow-hidden bg-gray-200 group h-60 dark:bg-gray-700">
                     <img
                         :src="project.image"
                         :alt="project.title"
@@ -96,12 +96,8 @@ import { onMounted } from 'vue';
 const projectsStore = useProjectsStore();
 const filters = ['all', 'fullstack', 'frontend'];
 
-onMounted(() => {
-    console.log('Projects loaded:', projectsStore.filteredProjects);
-});
-
 const handleImageError = (event, imagePath) => {
     console.error('Image failed to load:', imagePath, 'Attempted URL:', event.target.src);
-    event.target.src = '/favicon.ico'; // Fallback image
+    event.target.src = '/favicon.ico';
 };
 </script>
