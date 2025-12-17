@@ -38,7 +38,7 @@ export const useProjectsStore = defineStore('projects', () => {
             id: 4,
             title: 'Cambodia Board Jobs',
             description: 'A job board website for job seekers and employers in Cambodia.',
-            link: '',
+            link: 'https://cambodia-board-jobs-26f1.vercel.app/',
             github: 'https://github.com/CheaSophannarith/cambodia-board-jobs.git',
             image: '/boardjobs.png',
             technologies: ['NextJs', 'Supabase', 'Tailwind CSS'],
